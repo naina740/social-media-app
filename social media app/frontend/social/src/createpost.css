@@ -1,0 +1,44 @@
+.containeerr {
+    max-width: 3000px; /* Increased max-width */
+    margin: 50px auto; /* Adjusted margin */
+    padding: 100px; /* Increased padding */
+    background-color: #fff; /* Change background color to white */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.containeerr h1 {
+    font-size: 40px;
+    color: #333;
+    margin: 200 auto; /* Adjusted margin */
+    padding: 10px; 
+    margin-top:10px ;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    height:30px;
+}
+
+.usser[type="text"] {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group button {
+    font-size:20px;
+    width: calc(100% - 10px); /* Adjusted width to accommodate padding */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
